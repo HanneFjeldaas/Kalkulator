@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">kalkulator</string>
+    <string name="tall1">Tall 1</string>
+    <string name="tall2">Tall 2</string>
+    <string name="pluss">+</string>
+    <string name="minus">-</string>
+    <string name="dele">/</string>
+    <string name="gange">*</string>
+    <string name="resultat">Resultat</string>
+    <string name="slette">Reset</string>
+</resources>

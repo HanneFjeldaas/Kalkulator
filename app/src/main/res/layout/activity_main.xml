@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tall1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tall2"/>
+    <Button
+        android:id="@+id/pluss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pluss"/>
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/minus"/>
+    <Button
+        android:id="@+id/gange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gange"/>
+    <Button
+        android:id="@+id/dele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dele"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ditt resultat her"
+        android:id="@+id/resultat"/>
+    <Button
+        android:id="@+id/slette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/slette"/>
+</LinearLayout>
